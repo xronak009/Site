@@ -4,7 +4,7 @@ from telebot import types
 import time
 import json
 
-bot = telebot.TeleBot('7060286846:AAEeodWAegv3834hYLeNN_wsHjpFDWpxfY4')  # Replace with your actual bot token
+bot = telebot.TeleBot('6967380223:AAHDp6Vl2h_UvC5LEMNnm7tcVO1djDqMHlw')  # Replace with your actual bot token
 
 # Owner ID (replace with your actual owner ID)
 owner_id = 1192484969 
