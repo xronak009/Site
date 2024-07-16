@@ -185,8 +185,8 @@ def process_url_command(message):
                 result += f'✿ Captcha » {data.get("captcha", "N/A")}\n\n'
                 result += f'✿ Cloudflare » {data.get("cloudflare", "N/A")}\n\n'
                 result += f'✿ Gate » {", ".join(data.get("gate", []))}\n\n'  # Handle empty lists
-                result += f'Checked by - ID: {user_id}, Name: {message.from_user.first_name} {message.from_user.last_name}\n\n'  # Remove rank 
-                result += 'Owner - @xRonak' 
+                result += f'Checked by - {message.from_user.first_name}\n\n'  # Remove rank 
+                result += 'Owner - @xRonak ⛈️' 
 
                 bot.send_message(message.chat.id, result)
             else:
